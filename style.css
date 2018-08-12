@@ -1,0 +1,93 @@
+ 
+html {
+  width: 100%;
+}
+
+body {
+  position: relative;
+  background: linear-gradient(0deg, rgba(10, 185, 216,.75), rgba(191, 243, 252,.4)), url(https://i.scdn.co/image/4e808c052b72e69f7c3c74c84b9952b7a59e88af);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  font-family: "Raleway" ;font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+h1 {
+  font-family: "Raleway";
+  font-size: 30px;
+  margin-top: 2%;
+  color: white;
+  text-align: center;
+  border: white;
+  border-width: 40px;
+  background-size: cover;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 8px;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  width: 50%;
+  border-color: white;
+  margin-bottom: 35%;
+}
+
+p {
+  font-family: sans-serif;
+  color: white;
+}
+
+.well {
+  background-color: rgba(245, 245, 245, 0.85);
+  color: black;
+  border-width: 1px;
+  margin-bottom: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90vw;
+  position: static;
+  padding: 7%;
+}
+
+.btn {
+  color: black;
+  background-color: white;
+  margin-bottom: 10%;
+  position: sticky;
+  border-radius: 50px;
+  padding: 10px;
+  width: 25%;
+  }
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.fa-twitter:hover {
+  color: white !important;
+  background-color: black;
+}
+
+.fa-quote-right:hover {
+  color: white !important;
+  background-color: black;
+}
+
+footer {
+  display: block;
+  font-size: 12px;
+  margin-bottom: 0px;
+  color: white;
+  right: auto;
+  bottom: auto;
+  left: auto;
+  position: sticky;
+  width: 100%;
+}

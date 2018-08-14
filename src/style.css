@@ -1,3 +1,21 @@
+ 
+html {
+  width: 100%;
+}
+
+body {
+  position: relative;
+  background: linear-gradient(0deg, rgba(10, 185, 216,.75), rgba(191, 243, 252,.4)), url(https://i.scdn.co/image/4e808c052b72e69f7c3c74c84b9952b7a59e88af);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  font-family: "Raleway" ;font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  width: 100vw;
+}
 
 h1 {
   font-family: "Raleway";
@@ -22,7 +40,6 @@ hr {
 }
 
 p {
-  font:
   font-family: sans-serif;
   color: white;
 }
@@ -34,7 +51,7 @@ p {
   margin-bottom: 10%;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  width: 90vw;
   position: static;
   padding: 7%;
 }
@@ -64,21 +81,13 @@ p {
 }
 
 footer {
+  display: block;
   font-size: 12px;
+  margin-bottom: 0px;
   color: white;
   right: auto;
   bottom: auto;
   left: auto;
   position: sticky;
   width: 100%;
-}
-
-html
-body {
-  position: relative;
-  background: linear-gradient(0deg, rgba(10, 185, 216,.75), rgba(191, 243, 252,.4)), url(https://i.scdn.co/image/4e808c052b72e69f7c3c74c84b9952b7a59e88af);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
-  font-family: "Raleway" ;font-size: 16px;
 }
